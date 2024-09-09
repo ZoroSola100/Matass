@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matas Sangrentas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em "Matas Sangrentas", dois historiadores e arqueólogos se embrenham na obscura selva amazônica, onde o mal se materializa em formas demoníacas. Assombrados por espíritos folclóricos, eles enfrentam uma floresta que devora a esperança e a sanidade. Sua missão? Encontrar Eldorado e recuperar um artefato sagrado, capaz de conter o sangue e o poder do Espírito de Santa Maria. Somente assim poderão quebrar a maldição que condena a floresta e seus visitantes a uma existência de dor e horror.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a floresta</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para o acampamento</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide explorar a floresta. A densa vegetação e o som sinistro dos animais deixam a atmosfera pesada. De repente, você encontra uma trilha antiga coberta por folhas. Você segue em frente.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir pela trilha</button>
+            <button class="btn-proximo" data-proximo="4">Desviar e seguir um rio próximo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No acampamento, você se sente mais seguro, mas sabe que a verdadeira aventura está na floresta. Você decide preparar mais equipamentos antes de voltar.</p>
+            <button class="btn-proximo" data-proximo="5">Preparar equipamentos e voltar</button>
+            <button class="btn-proximo" data-proximo="6">Ficar no acampamento</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Seguindo pela trilha, você encontra uma clareira com uma árvore antiga e uma caixa misteriosa. A árvore parece emitir uma aura sombria. Você decide investigar.</p>
+            <button class="btn-proximo" data-proximo="7">Abrir a caixa</button>
+            <button class="btn-proximo" data-proximo="8">Continuar pela trilha</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="https://valeonnoticias.com.br/wp-content/uploads/2021/10/SACI-PERERE-2.jpg" alt="Folclore sinistro Saci Pererê">
+            <p>Você desvia e segue o rio. A correnteza é forte e você precisa nadar com cuidado. De repente, você é puxado para baixo por uma entidade aquática.</p>
+            <p>Infelizmente, você é afogado pela Yara, uma sereia demoníaca. Sua jornada chega ao fim.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Preparando seus equipamentos, você volta para a floresta. Com melhor preparo, você se sente mais confiante para enfrentar os desafios.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a floresta</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você decide ficar no acampamento. A floresta permanece um mistério, e a oportunidade de encontrar Eldorado se perde.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ao abrir a caixa, você encontra um amuleto antigo com símbolos estranhos. O amuleto parece pulsar com uma energia sinistra. Você decide continuar.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir com o amuleto</button>
+            <button class="btn-proximo" data-proximo="10">Deixar o amuleto e continuar pela trilha</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Continuando pela trilha, você encontra uma cabana abandonada. A atmosfera é estranha e você sente que algo está errado.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar na cabana</button>
+            <button class="btn-proximo" data-proximo="12">Ignorar a cabana e seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Seguindo com o amuleto, você sente uma presença sobrenatural acompanhando seus passos. A floresta parece se abrir à sua frente, revelando um caminho secreto.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir o caminho secreto</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Deixando o amuleto, você continua pela trilha. A floresta parece mais densa e o caminho fica cada vez mais difícil.</p>
+            <button class="btn-proximo" data-proximo="14">Prosseguir com cautela</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="Encontro com a cidade perdida">
+            <p>Dentro da cabana, você encontra um mapa antigo que leva você à cidade perdida. A cidade está repleta de tesouros e mistérios.</p>
+            <button class="btn-proximo" data-proximo="15">Explorar a cidade perdida</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Ignorando a cabana, você segue em frente e se depara com uma área pantanosa. Não há sinais de Eldorado aqui.</p>
+            <button class="btn-proximo" data-proximo="16">Voltar para a cabana</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>O caminho secreto leva você a um altar antigo. O artefato sagrado está lá, mas um espírito guardião desafia você a um combate.</p>
+            <button class="btn-proximo" data-proximo="17">Enfrentar o espírito</button>
+            <button class="btn-proximo" data-proximo="18">Tentar negociar com o espírito</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Prosseguindo com cautela, você descobre uma armadilha que quase te captura. A floresta está cheia de perigos.</p>
+            <button class="btn-proximo" data-proximo="19">Desviar da armadilha e continuar</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Explorando a cidade perdida, você encontra o artefato sagrado e consegue quebrar a maldição. A floresta começa a se acalmar.</p>
+            <p>Parabéns! Você completou a missão.</p>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Voltando para a cabana, você decide explorar com mais cuidado. Finalmente, você encontra um caminho alternativo para a cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Enfrentando o espírito, você consegue vencer a batalha e pega o artefato sagrado. A maldição é quebrada.</p>
+            <p>Parabéns! Você completou a missão.</p>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Negociando com o espírito, você consegue passar sem luta, mas o artefato é tomado. A missão continua sem o artefato.</p>
+            <button class="btn-proximo" data-proximo="15">Explorar a cidade perdida</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Desviando da armadilha, você continua sua jornada pela floresta, cada vez mais próximo de seu destino.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir adiante</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

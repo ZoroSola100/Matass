@@ -1,0 +1,55 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #000; /* Preto */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img {
+    max-width: 90%;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #e70000; /* Vermelho vivo */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c70000; /* Vermelho mais escuro */
+}
+
+button.btn-proximo {
+    background-color: #00ff00; /* Verde */
+}
+
+button.btn-proximo:hover {
+    background-color: #00cc00; /* Verde mais escuro */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
